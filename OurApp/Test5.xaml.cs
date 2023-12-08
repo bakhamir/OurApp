@@ -23,5 +23,35 @@ namespace OurApp
         {
             InitializeComponent();
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton RadButt = (RadioButton)sender;
+            if (RadButt.IsChecked == true)
+            {
+                MainWindow.Points++;
+                MessageBox.Show("Верно");
+            }
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            RadioButton RadButt = (RadioButton)sender;
+            if (RadButt.IsChecked == true)
+            {
+                MainWindow.Points++;
+                MessageBox.Show("Верно");
+            }
+        }
+
+        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
+        {
+            RadioButton RadButt = (RadioButton)sender;
+            if (RadButt.IsChecked == true)
+            {
+                MainWindow.Points++;
+                MessageBox.Show("Верно");
+            }
+        }
     }
 }

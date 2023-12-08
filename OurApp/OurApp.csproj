@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Ende.xaml.cs">
+      <DependentUpon>Ende.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Test2.xaml.cs">
       <DependentUpon>Test2.xaml</DependentUpon>
     </Compile>
@@ -67,6 +70,10 @@
     <Compile Include="Test5.xaml.cs">
       <DependentUpon>Test5.xaml</DependentUpon>
     </Compile>
+    <Page Include="Ende.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
