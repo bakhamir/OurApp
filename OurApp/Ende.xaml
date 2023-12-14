@@ -17,9 +17,9 @@
             <ColumnDefinition Width="99*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Content="Label" HorizontalAlignment="Left" Height="50" Margin="70,85,0,0" VerticalAlignment="Top" Width="358" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="78" Margin="70,212,0,0" VerticalAlignment="Top" Width="358" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="49" Margin="58,365,0,0" VerticalAlignment="Top" Width="394" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="nameTitle" Content="" HorizontalAlignment="Left" Height="50" Margin="70,85,0,0" VerticalAlignment="Top" Width="358" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="scoreTitle" Content="" HorizontalAlignment="Left" Height="78" Margin="70,212,0,0" VerticalAlignment="Top" Width="358" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="getRes" Content="Нажми чтобы получить результат&#xD;&#xA;" HorizontalAlignment="Left" Height="49" Margin="58,365,0,0" VerticalAlignment="Top" Width="394" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseDown="getRes_MouseDown"/>
 
     </Grid>
 </Window>

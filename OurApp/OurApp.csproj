@@ -130,12 +130,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="avatar971423746.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="msg777000-9608.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="TestApp\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

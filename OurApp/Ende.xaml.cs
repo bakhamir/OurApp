@@ -23,5 +23,11 @@ namespace OurApp
         {
             InitializeComponent();
         }
+
+        private void getRes_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            nameTitle.Content =$"поздравляем {MainWindow.Name} с прохождением теста!";
+            scoreTitle.Content = $"{MainWindow.Points}/15";
+        }
     }
 }

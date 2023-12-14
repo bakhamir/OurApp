@@ -33,6 +33,11 @@
         </StackPanel>
         <Label Grid.Row="4" Grid.Column="1" Content="exmplqyestion" Margin="72,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBox Grid.Row="5" Grid.Column="1"/>
-
+        <StackPanel Grid.Row="5" Grid.Column="1">
+            <RadioButton Content="Выбран" Checked="RadioButton_Checked_1"/>
+            <RadioButton Content="Не выбран" Checked="RadioButton_Checked_1"/>
+            <RadioButton Content="Не определен"/>
+        </StackPanel>
+        <Button Grid.Column="0" Grid.Row="5" Content="На следующую-->" Click="Button_Click_1"/>
     </Grid>
 </Window>

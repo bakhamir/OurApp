@@ -44,14 +44,11 @@ namespace OurApp
             }
         }
 
-        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            RadioButton RadButt = (RadioButton)sender;
-            if (RadButt.IsChecked == true)
-            {
-                MainWindow.Points++;
-                MessageBox.Show("Верно");
-            }
+            Ende endPage = new Ende();
+            this.Close();
+            endPage.Show();
         }
     }
 }
